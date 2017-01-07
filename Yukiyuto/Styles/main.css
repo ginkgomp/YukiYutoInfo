@@ -1,0 +1,9 @@
+@font-face {
+    /* font-properties */
+    font-family: "vargas";
+    src:url('fonts/vargas.ttf');
+}
+
+#nav_bar{
+    font-family: "vargas", sans-serif 
+}
