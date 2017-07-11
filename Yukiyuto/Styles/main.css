@@ -4,6 +4,28 @@
     src:url('fonts/vargas.ttf');
 }
 
+body{
+    background-color: aliceblue;
+}
+
+.row{
+    margin:auto 10px;
+}
+
 #nav_bar{
-    font-family: "vargas", sans-serif 
+    font-family: "vargas", sans-serif; 
+}
+
+.carousel-control.left{
+    background-image: none;
+     margin-left: -20px;
+}
+
+.carousel-control.right{
+    background-image: none;
+    right:-15px;
+}
+
+#login label{
+    padding-top: 5px;
 }
