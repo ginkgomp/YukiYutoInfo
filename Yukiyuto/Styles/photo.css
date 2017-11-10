@@ -29,6 +29,13 @@
 * Just container styling
 */
 
+#timelinetitle{
+	margin:10px auto 30px auto; 
+	text-align:center; 
+	font-family: 'Montserrat', sans-serif;
+}
+
+
 .flash {
 	overflow:auto;
 	border-radius:0;
@@ -47,6 +54,7 @@
 
 .eventContent {
 	font-size:12px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .hidden {

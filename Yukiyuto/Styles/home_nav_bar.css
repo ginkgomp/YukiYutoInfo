@@ -12,6 +12,7 @@
     margin-left:250px;
 }
 
+
         .lavaLamp {
             position: relative;
             height: 60px;
@@ -31,12 +32,12 @@
                         border: 1px groove #d3c0c0;
                         background-color: #efe7f4;
                         width: 10px;
-                        height: 33px;
+                        height: 40px;
                         /*z-index: 8;*/
                         position: absolute;
                     }
                     .lavaLamp li a {
-                        font: bold 25px papyrus;
+                        font: bold 30px papyrus;
                         text-decoration: none;
                         color: #d07fe3;
                         outline: none;
@@ -50,6 +51,7 @@
                         position: relative;
                         margin: auto 15px;
                         margin-left: 30px;
+			margin-top: -3px;
                     }
                         .lavaLamp li a:hover, .lavaLamp li a:active, .lavaLampe li a:visited {
                             border: none;
