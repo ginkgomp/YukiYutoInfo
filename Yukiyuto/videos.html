@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Blogs</title>
+    <link rel="shortcut icon" href="">  
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/main.css" type="text/css">
+    <link rel="stylesheet" href="Styles/home_nav_bar.css" type="text/css">
+     <link rel="stylesheet" href="Styles/videos.css" type="text/css">
+  </head>  
+    
+<body>
+    <div class="container">
+        <img class="img-responsive logo" src="image/logolarge.gif"  alt="logo"/>
+    <hr/>
+    <nav class="nav">
+    	<ul class="lavaLamp" id="nav_bar">
+            <li><a href="index.html">home</a></li>
+            <li><a href="photos.html">photos</a></li>
+    		<li class="current"><a href="videos.html">videos</a></li>
+    		<li><a href="blog.html">blog</a></li>
+            <li><a href="friends.html">friends</a></li>
+            <li><a href="ideas.html">ideas</a></li>
+            <li><a href="contact.html">contact</a></li>
+    	</ul>    
+    </nav>
+        <br/>
+        <div class="row" style="margin: 2.0em; padding-left: 1.0em;">
+            
+            <!-- tags -->
+            
+            <label> tag1 </label>
+            <label> yuki </label>
+            <label> yuto </label>
+            <br/>
+            <!-- videos content -->
+                <div class="col-xs-4 videoplay pull-left">
+            
+            <video width="250" controls>
+              <source src="videos/IMG_9383.mp4" type="video/mp4">
+              
+            Your browser does not support the video tag.
+            </video>
+
+            </div>
+            
+              <div class="col-xs-4 videoplay">
+            
+            <video width="250" controls>
+              <source src="videos/IMG_9383.mp4" type="video/mp4">
+              
+            Your browser does not support the video tag.
+            </video>
+
+            </div>
+            
+              <div class="col-xs-4 videoplay pull-right">
+            
+            <video width="250" controls >
+              <source src="videos/IMG_9383.mp4" type="video/mp4">
+              
+            Your browser does not support the video tag.
+            </video>
+
+            </div>
+            
+       
+        </div>
+    </div>
+  <footer class="footer">
+        <hr/>
+          <p class="text-muted" style="text-align: center">Copyright(c) 2017 | YukiANDYuto | All Rights Reserved</p>   
+        </footer>
+
+    
+    
+    
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lavalamp-0.2.0/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="lavalamp-0.2.0/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#nav_bar").lavaLamp({
+                fx: "backout",
+                speed: 700,
+                click: function(event, menuItem) {
+                    return true;
+                }
+            });
+        });
+    </script>
+   
+   
+</body>  
+</html>

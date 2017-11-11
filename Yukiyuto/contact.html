@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Contact Us</title>
+    <link rel="shortcut icon" href="">  
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/main.css" type="text/css">
+    <link rel="stylesheet" href="Styles/home_nav_bar.css" type="text/css">
+    
+  </head>  
+    
+<body>
+    <div class="container">
+        <img class="img-responsive logo" src="image/logolarge.gif"  alt="logo"/>
+    <hr/>
+    <nav class="nav">
+    	<ul class="lavaLamp" id="nav_bar">
+            <li><a href="index.html">home</a></li>
+            <li><a href="photos.html">photos</a></li>
+    		<li><a href="videos.html">videos</a></li>
+    		<li><a href="blog.html">blog</a></li>
+            <li><a href="friends.html">friends</a></li>
+            <li><a href="ideas.html">ideas</a></li>
+            <li class="current"><a href="contact.html">contact</a></li>
+    	</ul>    
+        
+    </nav>
+        <br/>
+        <div class="row">
+            <div class="col-xs-8">
+                <div>
+                <h4>Message/Comments</h4>
+                    <div style="border: 1px solid orange; padding: 3px">
+                         <!--little icon for user who post the msg-->
+                        <div class="media">
+                            <img class="align-self-start pull-left"  width=75 src="image/yukiicon.jpeg" alt="user id"  />
+                       
+                        
+                        <!--box for their msg-->
+                         <div class="media-body">
+                             <legend>Title:
+                                 <h5 class="media-heading" style="display:inline;">Yuki is an old bitch</h5></legend>
+                                 <p>blabla...........</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <hr/>
+                        <!--User input msg -->
+                        <form class="form-inline">
+                        <label for="postTitle" class="">Post Title:</label>
+                        <input type="text" class="form-control" id="postTitle"/>
+                            <br/><br/>
+                        <label for="postComments" class="">Comments:</label>
+                            <textarea type="text" class="form-control" id="postComments">Your messages go here...</textarea>
+                         <br/>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <h4>Contact Info</h4>
+                <label>Phone:</label><br/>
+                <label>Address:</label><br/>
+                <label>Email:</label><br/>
+                
+                <hr/>
+                
+                <h6>Check out our <a>FAQ</a> page before submit a request!</h6>
+                <form style="border: 1px solid pink; padding: 10px">
+                    <input type="text" placeholder="Name"/><br/>
+                    <input type="text" placeholder="Email"/><br/>
+                    
+                   
+                        <select  id="exampleSelect1">
+                          <option>Question Type</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select><br/>
+                    <textarea placeholder="describe your request..."></textarea>
+                    <br/>
+                    <button value="clear">clear</button>
+                    <button value="submit">submit</button>
+                </form>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+    <footer class="footer">
+        <hr/>
+          <p class="text-muted" style="text-align: center">Copyright(c) 2017 | YukiANDYuto | All Rights Reserved</p>   
+        </footer>
+
+    
+    
+    
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lavalamp-0.2.0/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="lavalamp-0.2.0/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#nav_bar").lavaLamp({
+                fx: "backout",
+                speed: 700,
+                click: function(event, menuItem) {
+                    return true;
+                }
+            });
+        });
+    </script>
+   
+    
+    </body>
+</html>
